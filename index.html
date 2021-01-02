@@ -13,25 +13,25 @@ body {font-family: Arial;}
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: green;
+  background-color: white;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  background-color: blue;
+  background-color: #4d79ff;
   color: white;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 10px 12px;
   transition: 0.3s;
   font-size: 15px;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: green;
+  background-color: #ff751a ;
 }
 
 /* Create an active/current tablink class */
@@ -82,9 +82,10 @@ body {font-family: Arial;}
 <div id="navbar">
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, 'London')"><b>All</b></button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')"><b>Entertainment</b></button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')"><b>Story</b></button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')"><b>Motivation</b></button>
 </div>
 
 <div id="London" class="tabcontent">
