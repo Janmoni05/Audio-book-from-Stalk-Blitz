@@ -3,6 +3,7 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<style src="style.css">
     h1, h2 {
   font-family: Lato;
@@ -12,7 +13,7 @@ body {font-family: Arial;}
 /* Style the tab */
 .tab {
   overflow: hidden;
-  
+  margin: 5px;
   background-color: white;
 }
 
@@ -91,16 +92,16 @@ body {font-family: Arial;}
 
 	<body>
 
-<div id="navbar">
+<div id="navbar" class="w3-round-xlarge">
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')"><b>All</b></button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')"><b>Entertainment</b></button>
+<div class="tab" class="w3-container">
+  <button class="tablinks  " onclick="openCity(event, 'London')"><b>All</b></button>
+  <button class="tablinks " onclick="openCity(event, 'Paris')"><b>Entertainment</b></button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')"><b>Story</b></button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')"><b>E-Book</b></button>
 </div>
 
-<div id="London" class="tabcontent">
+<div id="London" class="tabcontent w3-round-large w3-card-4 ">
   
 
 rfgry
@@ -108,16 +109,21 @@ rfgry
   
 </div>
 
-<div id="Paris" class="tabcontent">
+<div id="Paris" class="tabcontent w3-round-large w3-card-4">
   <h3>Paris</h3>
   <p>Paris is the capital of France.</p> 
 </div>
 
-<div id="Tokyo" class="tabcontent">
+<div id="Tokyo" class="tabcontent w3-round-large w3-card-4">
   <h3>Tokyo</h3>
   <p>Tokyo is the capital of Japan.</p>
 </div>
 
+
+<div id="Tokyo" class="tabcontent w3-round-large w3-card-4">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
 
 
 
